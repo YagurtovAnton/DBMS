@@ -46,11 +46,23 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - GetGroupID.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery2 - GetLastDateForGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NIQERLV\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NIQERLV\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - GetLastDateForGroup.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery7 - Get HolidaysStartDate.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NIQERLV\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-NIQERLV\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery7 - Get HolidaysStartDate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery7 - GetEasterDate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NIQERLV\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-NIQERLV\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery7 - GetEasterDate.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery7 - GetHoliday.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-NIQERLV\SQLEXPRESS:True</AssociatedConnectionMoniker>

@@ -2,13 +2,15 @@ USE PV_319_Import;
 SET DATEFIRST 1;
 GO
 
-PRINT(dbo.GetGroupID(N'PV_319'));
-PRINT(dbo.GetDisciplineID(N'Hardware%'));
---EXEC sp_PrintScheduleForGroup N'PV_319';
-PRINT(dbo.CountSpentLessons(N'PV_319', N'Процедурное программирование%'));
-PRINT(dbo.GetYearHolidaysStartDate(2025));
-PRINT(dbo.GetSummerHolidaysStart(2024));
-PRINT(dbo.GetHolidaysDuration(N'Лет%' ));
+--PRINT(dbo.GetGroupID(N'PV_319'));
+--PRINT(dbo.GetDisciplineID(N'Hardware%'));
+----EXEC sp_PrintScheduleForGroup N'PV_319';
+--PRINT(dbo.CountSpentLessons(N'PV_319', N'Процедурное программирование%'));
+--PRINT(dbo.GetYearHolidaysStartDate(2025));
+--PRINT(dbo.GetSummerHolidaysStart(2024));
+--PRINT(dbo.GetHolidaysDuration(N'Лет%' ));
 
-PRINT('-----------------');
-PRINT(dbo.GetHolidayStartDate(N'Нов%', 2025));
+--PRINT('-----------------');
+--PRINT(dbo.GetHolidayStartDate(N'Пасха', 2025));
+PRINT(dbo.GetEasterDate(2025));
+PRINT(dbo.GetLastDateForGroup(N'PV_319'));
